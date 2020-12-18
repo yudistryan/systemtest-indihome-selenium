@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="cek-ketersediaan;service-available-location" tests="6" failures="1" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/Dokumen/Pelatihan/Software Quality Assurance/Tugas/last-project/cek-ketersediaan/features/cek-ketersediaan.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse Cek Ketersediaan page 1" classname="cek-ketersediaan;service-available-location" time="0.000896">
+        </testcase>
+        <testcase name="And user fill available location field" classname="cek-ketersediaan;service-available-location" time="0.0005357">
+        </testcase>
+        <testcase name="And user fill available address field" classname="cek-ketersediaan;service-available-location" time="0.0002972">
+        </testcase>
+        <testcase name="And user click Cek Ketersediaan button 1" classname="cek-ketersediaan;service-available-location" time="0.000445">
+        </testcase>
+        <testcase name="When page is loading 1" classname="cek-ketersediaan;service-available-location" time="9.3176144">
+        </testcase>
+        <testcase name="Then available pop-up will be appared in page" classname="cek-ketersediaan;service-available-location" time="20.0008092">
+            <failure message="function timed out after 20000 milliseconds">function timed out after 20000 milliseconds</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="cek-ketersediaan;service-unavailable-location-(city-exist,-address-not)" tests="6" failures="1" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:/Dokumen/Pelatihan/Software Quality Assurance/Tugas/last-project/cek-ketersediaan/features/cek-ketersediaan.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse Cek Ketersediaan page 2" classname="cek-ketersediaan;service-unavailable-location-(city-exist,-address-not)" time="0.0008548">
+        </testcase>
+        <testcase name="And user fill available location field 1" classname="cek-ketersediaan;service-unavailable-location-(city-exist,-address-not)" time="0.0002722">
+        </testcase>
+        <testcase name="And user fill unavailable address field 1" classname="cek-ketersediaan;service-unavailable-location-(city-exist,-address-not)" time="0.0002703">
+        </testcase>
+        <testcase name="And user click Cek Ketersediaan button 2" classname="cek-ketersediaan;service-unavailable-location-(city-exist,-address-not)" time="0.0002799">
+        </testcase>
+        <testcase name="When page is loading 2" classname="cek-ketersediaan;service-unavailable-location-(city-exist,-address-not)" time="9.5098107">
+        </testcase>
+        <testcase name="Then unavailable pop-up will be appared in page 1" classname="cek-ketersediaan;service-unavailable-location-(city-exist,-address-not)" time="20.0013302">
+            <failure message="function timed out after 20000 milliseconds">function timed out after 20000 milliseconds</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="cek-ketersediaan;service-unavailable-location-(city-not,-address-not)" tests="6" failures="1" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:/Dokumen/Pelatihan/Software Quality Assurance/Tugas/last-project/cek-ketersediaan/features/cek-ketersediaan.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse Cek Ketersediaan page 3" classname="cek-ketersediaan;service-unavailable-location-(city-not,-address-not)" time="0.0003614">
+        </testcase>
+        <testcase name="And user fill unavailable location field 2" classname="cek-ketersediaan;service-unavailable-location-(city-not,-address-not)" time="0.0003519">
+        </testcase>
+        <testcase name="And user fill unavailable address field 2" classname="cek-ketersediaan;service-unavailable-location-(city-not,-address-not)" time="0.0001479">
+        </testcase>
+        <testcase name="And user click Cek Ketersediaan button 3" classname="cek-ketersediaan;service-unavailable-location-(city-not,-address-not)" time="0.0002291">
+        </testcase>
+        <testcase name="When page is loading 3" classname="cek-ketersediaan;service-unavailable-location-(city-not,-address-not)" time="8.9547795">
+        </testcase>
+        <testcase name="Then unavailable pop-up will be appared in page 2" classname="cek-ketersediaan;service-unavailable-location-(city-not,-address-not)" time="20.0000001">
+            <failure message="function timed out after 20000 milliseconds">function timed out after 20000 milliseconds</failure>
+        </testcase>
+    </testsuite>
+</testsuites>

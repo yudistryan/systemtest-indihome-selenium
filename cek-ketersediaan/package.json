@@ -1,0 +1,24 @@
+{
+  "name": "cek-ketersediaan",
+  "version": "1.0.0",
+  "description": "Indihome Functional Testing - Cek Ketersediaan",
+  "main": "index.js",
+  "dependencies": {
+    "selenium": "^2.20.0",
+    "chromedriver": "^2.44.0",
+    "phantomjs": "^2.1.7"
+  },
+  "devDependencies": {
+    "selenium-cucumber-js": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions",
+    "test-headless": "node ./index.js -s ./step-definitions"
+  },
+  "author": "Yudistryan",
+  "license": "ISC"
+}
