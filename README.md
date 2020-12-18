@@ -1,0 +1,2 @@
+# systemtest-indihome-selenium
+Dokumen ini merupakan panduan pengujian untuk situs web indihome sebagai pemenuhan tugas proyek 3 program Telkom Digital Talent Incubator. Pengujian hanya dilakukan kepada beberapa Functional Requirement saja. Metode yang digunakan adalah Black-box Testing dan menggunakan strategi Equivalence Partitioning. Luaran dari pengujian adalah test plan, test log, test report, poster dan video.
