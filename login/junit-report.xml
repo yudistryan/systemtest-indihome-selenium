@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login-on-the-website-indihome;user-failed-to-login-on-the-website-indihome" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:/QA/telkom dti 2020/indihome/features/login-failed.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse indihome1" classname="login-on-the-website-indihome;user-failed-to-login-on-the-website-indihome" time="0.0019815">
+        </testcase>
+        <testcase name="And user click button masuk1" classname="login-on-the-website-indihome;user-failed-to-login-on-the-website-indihome" time="0.004492099">
+        </testcase>
+        <testcase name="And user fill email atau nomor hp field with wrong data" classname="login-on-the-website-indihome;user-failed-to-login-on-the-website-indihome" time="0.0006607">
+        </testcase>
+        <testcase name="And user click checkbox ingat saya1" classname="login-on-the-website-indihome;user-failed-to-login-on-the-website-indihome" time="0.0005998">
+        </testcase>
+        <testcase name="When user click button login1" classname="login-on-the-website-indihome;user-failed-to-login-on-the-website-indihome" time="0.0006641">
+        </testcase>
+        <testcase name="Then user get alert belum terdaftar" classname="login-on-the-website-indihome;user-failed-to-login-on-the-website-indihome" time="0.0005804">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-on-the-website-indihome;user-success-to-login-on-the-website-indihome" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/QA/telkom dti 2020/indihome/features/login-sucess.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse indihome" classname="login-on-the-website-indihome;user-success-to-login-on-the-website-indihome" time="0.000297901">
+        </testcase>
+        <testcase name="And user click button masuk" classname="login-on-the-website-indihome;user-success-to-login-on-the-website-indihome" time="0.0006334">
+        </testcase>
+        <testcase name="And user fill email atau nomor hp field with true data" classname="login-on-the-website-indihome;user-success-to-login-on-the-website-indihome" time="0.001000201">
+        </testcase>
+        <testcase name="And user click checkbox ingat saya" classname="login-on-the-website-indihome;user-success-to-login-on-the-website-indihome" time="0.000382799">
+        </testcase>
+        <testcase name="When user click button login" classname="login-on-the-website-indihome;user-success-to-login-on-the-website-indihome" time="0.000343599">
+        </testcase>
+        <testcase name="Then user get pop up verifikasi akun" classname="login-on-the-website-indihome;user-success-to-login-on-the-website-indihome" time="0.0003073">
+        </testcase>
+    </testsuite>
+</testsuites>

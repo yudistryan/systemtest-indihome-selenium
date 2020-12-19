@@ -1,0 +1,25 @@
+{
+  "name": "indihome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "selenium-cucumber-js": "^1.8.1"
+  },
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions",
+    "test-headless": "node ./index.js -s ./step-definitions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.playcourt.id/.git"
+  },
+  "keywords": [
+    "indihome",
+    "selnium",
+    "testing"
+  ],
+  "author": "Fadhila",
+  "license": "Telkom (c) 2020"
+}

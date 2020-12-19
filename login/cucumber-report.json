@@ -1,0 +1,236 @@
+[
+  {
+    "description": "    As a user\n    I want to be not able to login",
+    "elements": [
+      {
+        "id": "login-on-the-website-indihome;user-failed-to-login-on-the-website-indihome",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User failed to login on the website indihome",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse indihome1",
+            "result": {
+              "status": "passed",
+              "duration": 1981500
+            },
+            "line": 9,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-failed-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click button masuk1",
+            "result": {
+              "status": "passed",
+              "duration": 4492099
+            },
+            "line": 10,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-failed-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email atau nomor hp field with wrong data",
+            "result": {
+              "status": "passed",
+              "duration": 660700
+            },
+            "line": 11,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-failed-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click checkbox ingat saya1",
+            "result": {
+              "status": "passed",
+              "duration": 599800
+            },
+            "line": 12,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-failed-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click button login1",
+            "result": {
+              "status": "passed",
+              "duration": 664100
+            },
+            "line": 13,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-failed-steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user get alert belum terdaftar",
+            "result": {
+              "status": "passed",
+              "duration": 580400
+            },
+            "line": 14,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-failed-steps.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 67395765899,
+              "error_message": "TimeoutError: No connection could be made because the target machine actively refused it. (os error 10061)\n    at Object.throwDecodedError (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\error.js:497:15)\n    at parseHttpResponse (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\http.js:519:13)\n    at D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:94:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\firefox\\index.js:571:41)\n    at createDriver (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\index.js:645:16)\n    at new module.exports (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\firefoxDriver.js:17:8)\n    at getDriverInstance (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\world.js:39:22)\n    at D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29\nFrom: Task: WebDriver.manage().window().maximize()\n    at thenableWebDriverProxy.schedule (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Window.maximize (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1691:25)\n    at new module.exports (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\firefoxDriver.js:19:30)\n    at getDriverInstance (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\world.js:39:22)\n    at D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29\n    at processTicksAndRejections (internal/process/task_queues.js:76:11)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-on-the-website-indihome",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Login on the website indihome",
+    "tags": [],
+    "uri": "D:/QA/telkom dti 2020/indihome/features/login-failed.feature"
+  },
+  {
+    "description": "    As a user\n    I want  to be able to login",
+    "elements": [
+      {
+        "id": "login-on-the-website-indihome;user-success-to-login-on-the-website-indihome",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User success to login on the website indihome",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse indihome",
+            "result": {
+              "status": "passed",
+              "duration": 297901
+            },
+            "line": 9,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-success-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click button masuk",
+            "result": {
+              "status": "passed",
+              "duration": 633400
+            },
+            "line": 10,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-success-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email atau nomor hp field with true data",
+            "result": {
+              "status": "passed",
+              "duration": 1000201
+            },
+            "line": 11,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-success-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click checkbox ingat saya",
+            "result": {
+              "status": "passed",
+              "duration": 382799
+            },
+            "line": 12,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-success-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click button login",
+            "result": {
+              "status": "passed",
+              "duration": 343599
+            },
+            "line": 13,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-success-steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user get pop up verifikasi akun",
+            "result": {
+              "status": "passed",
+              "duration": 307300
+            },
+            "line": 14,
+            "match": {
+              "location": "2020\\indihome\\step-definitions\\login-success-steps.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 66133685700,
+              "error_message": "TimeoutError: No connection could be made because the target machine actively refused it. (os error 10061)\n    at Object.throwDecodedError (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\error.js:497:15)\n    at parseHttpResponse (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\http.js:519:13)\n    at D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:94:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\firefox\\index.js:571:41)\n    at createDriver (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\index.js:645:16)\n    at new module.exports (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\firefoxDriver.js:17:8)\n    at getDriverInstance (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\world.js:39:22)\n    at D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29\nFrom: Task: WebDriver.manage().window().maximize()\n    at thenableWebDriverProxy.schedule (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Window.maximize (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1691:25)\n    at new module.exports (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\firefoxDriver.js:19:30)\n    at getDriverInstance (D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\world.js:39:22)\n    at D:\\QA\\telkom dti 2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29\n    at processTicksAndRejections (internal/process/task_queues.js:76:11)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "2020\\indihome\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-on-the-website-indihome",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Login on the website indihome",
+    "tags": [],
+    "uri": "D:/QA/telkom dti 2020/indihome/features/login-sucess.feature"
+  }
+]
