@@ -1,0 +1,732 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to register",
+    "elements": [
+      {
+        "id": "register-on-the-website;user-success-to-register-on-the-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User success to register on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse indihome page",
+            "result": {
+              "status": "passed",
+              "duration": 478000
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click daftar akun",
+            "result": {
+              "status": "passed",
+              "duration": 157700
+            },
+            "line": 10,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Email field",
+            "result": {
+              "status": "passed",
+              "duration": 160000
+            },
+            "line": 11,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Nama field",
+            "result": {
+              "status": "passed",
+              "duration": 222400
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Nomor HP",
+            "result": {
+              "status": "passed",
+              "duration": 176000
+            },
+            "line": 13,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "select Jenis Kelamin",
+            "result": {
+              "status": "passed",
+              "duration": 277400
+            },
+            "line": 14,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "select Jenis Kelamin Wanita",
+            "result": {
+              "status": "passed",
+              "duration": 178300
+            },
+            "line": 15,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Password",
+            "result": {
+              "status": "passed",
+              "duration": 175000
+            },
+            "line": 16,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Konfirmasi Password",
+            "result": {
+              "status": "passed",
+              "duration": 187400
+            },
+            "line": 17,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "check Setuju",
+            "result": {
+              "status": "passed",
+              "duration": 190800
+            },
+            "line": 18,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click Register Button",
+            "result": {
+              "status": "passed",
+              "duration": 179700
+            },
+            "line": 19,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "page is loading",
+            "result": {
+              "status": "passed",
+              "duration": 8194880400
+            },
+            "line": 20,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "verify alert will be appeared",
+            "result": {
+              "status": "passed",
+              "duration": 27636200
+            },
+            "line": 21,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 190165900
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sucess",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "User failed to register on the website because user already registered",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse indihome page",
+            "result": {
+              "status": "passed",
+              "duration": 143500
+            },
+            "line": 25,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click daftar akun",
+            "result": {
+              "status": "passed",
+              "duration": 64900
+            },
+            "line": 26,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Email Registered field",
+            "result": {
+              "status": "passed",
+              "duration": 102200
+            },
+            "line": 27,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:83"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Nama Registered field",
+            "result": {
+              "status": "passed",
+              "duration": 90500
+            },
+            "line": 28,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Nomor HP Registered",
+            "result": {
+              "status": "passed",
+              "duration": 80800
+            },
+            "line": 29,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "select Jenis Kelamin",
+            "result": {
+              "status": "passed",
+              "duration": 73100
+            },
+            "line": 30,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "select Jenis Kelamin Wanita",
+            "result": {
+              "status": "passed",
+              "duration": 62600
+            },
+            "line": 31,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Password",
+            "result": {
+              "status": "passed",
+              "duration": 140000
+            },
+            "line": 32,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Konfirmasi Password",
+            "result": {
+              "status": "passed",
+              "duration": 147600
+            },
+            "line": 33,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "check Setuju",
+            "result": {
+              "status": "passed",
+              "duration": 120600
+            },
+            "line": 34,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click Register Button",
+            "result": {
+              "status": "passed",
+              "duration": 75300
+            },
+            "line": 35,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "page is loading",
+            "result": {
+              "status": "passed",
+              "duration": 10345496100
+            },
+            "line": 36,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "failed alert will be appeared 1",
+            "result": {
+              "status": "passed",
+              "duration": 306089900
+            },
+            "line": 37,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:101"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 167979300
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "User failed to register on the website because user skip check setuju syarat dan ketentuan",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse indihome page",
+            "result": {
+              "status": "passed",
+              "duration": 148000
+            },
+            "line": 41,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click daftar akun",
+            "result": {
+              "status": "passed",
+              "duration": 305000
+            },
+            "line": 42,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Email field",
+            "result": {
+              "status": "passed",
+              "duration": 137300
+            },
+            "line": 43,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Nama field",
+            "result": {
+              "status": "passed",
+              "duration": 124500
+            },
+            "line": 44,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Nomor HP",
+            "result": {
+              "status": "passed",
+              "duration": 131000
+            },
+            "line": 45,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "select Jenis Kelamin",
+            "result": {
+              "status": "passed",
+              "duration": 876900
+            },
+            "line": 46,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "select Jenis Kelamin Wanita",
+            "result": {
+              "status": "passed",
+              "duration": 115600
+            },
+            "line": 47,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Password",
+            "result": {
+              "status": "passed",
+              "duration": 95900
+            },
+            "line": 48,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Konfirmasi Password",
+            "result": {
+              "status": "passed",
+              "duration": 78800
+            },
+            "line": 49,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Register Button",
+            "result": {
+              "status": "passed",
+              "duration": 68100
+            },
+            "line": 50,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "failed alert will be appeared 2",
+            "result": {
+              "status": "passed",
+              "duration": 8179928400
+            },
+            "line": 51,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:112"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 202353300
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "User failed to register on the website because user input wrong confirmation password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse indihome page",
+            "result": {
+              "status": "passed",
+              "duration": 126500
+            },
+            "line": 56,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click daftar akun",
+            "result": {
+              "status": "passed",
+              "duration": 104400
+            },
+            "line": 57,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Email field",
+            "result": {
+              "status": "passed",
+              "duration": 78700
+            },
+            "line": 58,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Nama field",
+            "result": {
+              "status": "passed",
+              "duration": 83300
+            },
+            "line": 59,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Nomor HP",
+            "result": {
+              "status": "passed",
+              "duration": 68400
+            },
+            "line": 60,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "select Jenis Kelamin",
+            "result": {
+              "status": "passed",
+              "duration": 78100
+            },
+            "line": 61,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "select Jenis Kelamin Wanita",
+            "result": {
+              "status": "passed",
+              "duration": 59300
+            },
+            "line": 62,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill Password",
+            "result": {
+              "status": "passed",
+              "duration": 58400
+            },
+            "line": 63,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user fill Konfirmasi Password Salah",
+            "result": {
+              "status": "passed",
+              "duration": 166300
+            },
+            "line": 64,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user see element konfirmasi password tidak sama",
+            "result": {
+              "status": "passed",
+              "duration": 7267063900
+            },
+            "line": 65,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\step-definitions\\register-steps.js:128"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 167936200
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\DTI\\project\\functional-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-on-the-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Register on the website",
+    "tags": [],
+    "uri": "D:\\DTI\\project\\functional-testing\\features\\register.feature"
+  }
+]

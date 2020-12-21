@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="register-on-the-website;user-success-to-register-on-the-website" tests="13" failures="0" skipped="0">
+        <properties>
+            <property name="@sucess" value="true">
+            </property>
+            <property name="URI" value="D:\DTI\project\functional-testing\features\register.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse indihome page" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.000478">
+        </testcase>
+        <testcase name="Then user click daftar akun" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.0001577">
+        </testcase>
+        <testcase name="And fill Email field" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.00016">
+        </testcase>
+        <testcase name="And fill Nama field" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.0002224">
+        </testcase>
+        <testcase name="And fill Nomor HP" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.000176">
+        </testcase>
+        <testcase name="And select Jenis Kelamin" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.0002774">
+        </testcase>
+        <testcase name="And select Jenis Kelamin Wanita" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.0001783">
+        </testcase>
+        <testcase name="And fill Password" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.000175">
+        </testcase>
+        <testcase name="And fill Konfirmasi Password" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.0001874">
+        </testcase>
+        <testcase name="And check Setuju" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.0001908">
+        </testcase>
+        <testcase name="And user click Register Button" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.0001797">
+        </testcase>
+        <testcase name="When page is loading" classname="register-on-the-website;user-success-to-register-on-the-website" time="8.1948804">
+        </testcase>
+        <testcase name="Then verify alert will be appeared" classname="register-on-the-website;user-success-to-register-on-the-website" time="0.0276362">
+        </testcase>
+    </testsuite>
+    <testsuite name="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" tests="13" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:\DTI\project\functional-testing\features\register.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse indihome page" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.0001435">
+        </testcase>
+        <testcase name="Then user click daftar akun" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.0000649">
+        </testcase>
+        <testcase name="And fill Email Registered field" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.0001022">
+        </testcase>
+        <testcase name="And fill Nama Registered field" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.0000905">
+        </testcase>
+        <testcase name="And fill Nomor HP Registered" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.0000808">
+        </testcase>
+        <testcase name="And select Jenis Kelamin" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.0000731">
+        </testcase>
+        <testcase name="And select Jenis Kelamin Wanita" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.0000626">
+        </testcase>
+        <testcase name="And fill Password" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.00014">
+        </testcase>
+        <testcase name="And fill Konfirmasi Password" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.0001476">
+        </testcase>
+        <testcase name="And check Setuju" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.0001206">
+        </testcase>
+        <testcase name="And user click Register Button" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.0000753">
+        </testcase>
+        <testcase name="When page is loading" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="10.3454961">
+        </testcase>
+        <testcase name="Then failed alert will be appeared 1" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-already-registered" time="0.3060899">
+        </testcase>
+    </testsuite>
+    <testsuite name="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:\DTI\project\functional-testing\features\register.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse indihome page" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" time="0.000148">
+        </testcase>
+        <testcase name="Then user click daftar akun" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" time="0.000305">
+        </testcase>
+        <testcase name="And fill Email field" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" time="0.0001373">
+        </testcase>
+        <testcase name="And fill Nama field" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" time="0.0001245">
+        </testcase>
+        <testcase name="And fill Nomor HP" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" time="0.000131">
+        </testcase>
+        <testcase name="And select Jenis Kelamin" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" time="0.0008769">
+        </testcase>
+        <testcase name="And select Jenis Kelamin Wanita" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" time="0.0001156">
+        </testcase>
+        <testcase name="And fill Password" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" time="0.0000959">
+        </testcase>
+        <testcase name="And fill Konfirmasi Password" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" time="0.0000788">
+        </testcase>
+        <testcase name="When user click Register Button" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" time="0.0000681">
+        </testcase>
+        <testcase name="Then failed alert will be appeared 2" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-skip-check-setuju-syarat-dan-ketentuan" time="8.1799284">
+        </testcase>
+    </testsuite>
+    <testsuite name="register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:\DTI\project\functional-testing\features\register.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse indihome page" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password" time="0.0001265">
+        </testcase>
+        <testcase name="Then user click daftar akun" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password" time="0.0001044">
+        </testcase>
+        <testcase name="And fill Email field" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password" time="0.0000787">
+        </testcase>
+        <testcase name="And fill Nama field" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password" time="0.0000833">
+        </testcase>
+        <testcase name="And fill Nomor HP" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password" time="0.0000684">
+        </testcase>
+        <testcase name="And select Jenis Kelamin" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password" time="0.0000781">
+        </testcase>
+        <testcase name="And select Jenis Kelamin Wanita" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password" time="0.0000593">
+        </testcase>
+        <testcase name="And fill Password" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password" time="0.0000584">
+        </testcase>
+        <testcase name="When user fill Konfirmasi Password Salah" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password" time="0.0001663">
+        </testcase>
+        <testcase name="Then user see element konfirmasi password tidak sama" classname="register-on-the-website;user-failed-to-register-on-the-website-because-user-input-wrong-confirmation-password" time="7.2670639">
+        </testcase>
+    </testsuite>
+</testsuites>
